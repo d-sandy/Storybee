@@ -1,0 +1,40 @@
+#main{
+    position: relative;
+    width: 842px;
+    height: 500px;
+    /* margin-top: 60px; */
+    display: flex;
+    border: 0;
+    background-color: white;
+    top: 20px;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+
+  }
+  #canvasarea{
+    display: flex;
+    width: 270px;
+    height: 324px;
+    /* background-color: black; */
+  }
+
+.auto-jsCalendar{
+   display: flex;
+  }
+
+
+#mytextarea{
+    display: flex;
+    width: 270px;
+    height: 324px;
+    outline: none;
+    border: none;
+    /* background-color: #39c224; */
+    padding: 35px;
+    font-size: xx-large;
+    font-family:cursive;
+    color: rgb(124, 123, 123);  
+  } 
+ 

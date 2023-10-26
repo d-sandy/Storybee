@@ -1,0 +1,31 @@
+#main {
+  position: relative;
+  width: 500px;
+  /* margin-top: 60px; */
+  border: 0;
+  background-color: white;
+  top: 20px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+#mytextarea {
+  position: absolute;
+  width: 500px;
+  height: 500px;
+  outline: none;
+  border: none;
+  /* background-color: #39c224; */
+  padding: 35px;
+  font-size: xx-large;
+  font-family: cursive;
+  color: rgb(124, 123, 123);
+}
+
+#canvasarea {
+  width: 500px;
+  height: 500px;
+  /* background-color: black; */
+}

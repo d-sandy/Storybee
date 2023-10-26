@@ -1,0 +1,147 @@
+<!DOCTYPE html>
+<html lang="en">
+ <head>
+     <meta charset="UTF-8">
+     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+     <title>Storybee</title>
+     <link rel="apple-touch-icon" sizes="180x180" href="icon/apple-touch-icon.png">
+     <link rel="icon" type="image/png" sizes="32x32" href="icon/favicon-32x32.png">
+     <link rel="icon" type="image/png" sizes="16x16" href="icon/favicon-16x16.png">
+     <link rel="manifest" href="icon/site.webmanifest">
+     <link rel="stylesheet" href="style.css">
+     <script defer="" src="main.js"></script>
+ </head>
+ <body>
+      <div class="home" id="home">
+         <nav id="header">
+            <ul>
+               <li><a href="#" class="logo"><img src="logo.png" alt="logo"></a></li>
+               <li><a href="#home">Home</a></li>
+               <li><a href="landingpage.html" target="_blank">Write</a></li>
+               <li><a href="#guide">Guide</a></li>
+               <li><a href="#more">More</a></li>
+               <!-- <li><a href="#login">login</a></li>      -->
+            </ul>
+         </nav> 
+         <div class="bannerimg">
+            <img src="background-header.jpg" alt="home-banner" style="width: 100%; height: 610px;">       
+            <div class="bannertext">
+               <marquee  behavior="alternate" direction="right">     
+                  <img src="icon/favicon-32x32.png">
+               </marquee>
+               <p>
+                  Get your writing skills up to scratch!<br>
+                  Our mission is to empower young writers by providing them with the <br> 
+                  tools to create amazing stories and illustrations.<br>
+                  Engage students like never before with Storybee's art-inspired writing!
+               </p>
+               <a href="#explore">Explore</a> 
+            </div>   
+            <marquee  behavior="alternate" direction="left">     
+               <img src="icon/favicon-32x32.png">
+            </marquee>
+            <p> 
+         </div>
+         <div id="explore">
+            <marquee  behavior="alternate" direction="right">     
+               <img src="icon/favicon-32x32.png">
+             </marquee>
+            <div class="steps">
+               <div class="step" id="step1">
+                  <p>Upload or Draw an illustration</p>
+                  <h4>Step 1</h4>
+                  <img src="draw.jpg">
+               </div>
+               <div class="step" id="step2">
+                  <p>Write your story</p>
+                  <h4>Step 2</h4>
+                  <img src="write.jpg">
+               </div>
+               <div class="step" id="step3">
+                  <p>Print your work</p>
+                  <h4>Step 3</h4>
+                  <img src="print.jpg">
+               </div>     
+            </div>  
+            <div class="getstarted">
+               <a href="landingpage.html">Get started</a>
+            </div>
+         </div>
+         <div id="guide">
+            <div id="mystory" class="guides">
+               <div class="summary">
+                  <h2>
+                     <a href="landingpage.html" target="_blank">Write Story</a><br><br>
+                     Don't limit yourself to one chapter<br> when you have a long story to tell, <br>
+                     show the world what you can do.
+                  </h2>
+                  <img src="mystory.png" height ="500" width="400">
+               </div>    
+            </div>
+            <div id="shortstory" class="guides" style="display: none;">
+               <div class="summary">
+                  <h2>
+                     <a href="poetry.html" target="_blank">Write Poetry</a><br><br>
+                     Put your thoughts into poetry!<br>
+                     Make your own visual masterpiece <br>
+                     by adding words to artwork.
+                  </h2>
+                  <img src="quote.png" height ="400" width="400">      
+               </div>        
+            </div>
+            <div id="calender" class="guides" style="display: none;">
+               <div class="summary">
+                  <h2>
+                     <a href="calender.html" target="_blank">Make Your own Calender</a>
+                  </h2>
+               
+                  <img src="calender.png" height ="500" width="700" >
+               </div> 
+            </div>
+            <div id="drawing" class="guides" style="display: none;">
+               <div class="summary">
+                  <h2>
+                     <a href="poetry.html" target="_blank">Put your own artistic touch</a>
+                     <br> on your story. <br><br>
+                     Embrace your creative side <br> 
+                     with beautiful artwork <br>
+                     that illustrates your story.
+                  </h2>
+               
+                  <img src="drawing.png" height ="400" width="400">
+               </div>  
+            </div>
+            <button id="nextbutton" onclick="nextdiv()">></button>
+         </div>
+         <div id="more">
+            <div class="about">
+               <img src="icon/favicon.ico" alt>
+               <h4>About</h4>
+               <p>Storybee's online application lets you make visual stories in seconds.<br>
+                  It's a simple idea that has attracted many writers of any age to turn those images
+                  into original stories.<br>
+                  Families and friends, teachers and students, and amateurs and professionals anyone
+                  can use storybee for story writing.
+               </p>
+            </div>
+            <div class="contact">
+               <img src="icon/favicon.ico" alt>
+               <h4>Contact</h4>
+               <p>
+                  Whether you are looking for a partner for one of your projects or <br>
+                  are seeking an exciting challenge in the digital world,<br>
+                  we will be happy to answer all your questions.<br><br>
+               </p>
+               <form>
+                  <label for="email">Enter your Email Address : </label>
+                  <input type="text" id="email" name="email"><br><br><br>
+                  <input type="submit" value="Submit">
+               </form>
+            </div>
+         </div>
+         <div class="footer">
+            <p>@copright 2023-Sandy</p>
+         </div>
+      </div>
+   </body>
+</html>   

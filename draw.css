@@ -1,0 +1,84 @@
+#ctxcolor {
+  padding: 0px 115px 0px 0px;
+  text-decoration: none;
+  font-size: 15px;
+  color: black;
+  display: block;
+  text-decoration: none;
+  background: none;
+  border: none;
+  font-weight: bold;
+}
+#eraser,
+#cleardraw {
+  width: 38%;
+  border-radius: 2rem;
+  border-style: solid;
+  font-weight: bolder;
+  border-color: black;
+  background-color: white;
+  margin-bottom: 14px;
+}
+.buttonSize {
+  display: flex;
+}
+.buttonSize p {
+  font-weight: bolder;
+  margin-left: 35px;
+}
+.buttonSize input {
+  padding: 0px;
+}
+
+#canvascolor {
+  margin-right: 125px;
+  padding: 0px;
+}
+
+.canvasSize p {
+  font-weight: bolder;
+}
+
+#downloadbutton {
+  width: 150px;
+  border-radius: 2rem;
+  border-style: solid;
+  font-weight: bolder;
+  border-color: black;
+  background-color: white;
+  margin-top: 20px;
+  margin-left: 50px;
+  padding: 0px;
+}
+
+#main {
+  position: relative;
+  width: 842px;
+  /* margin-top: 60px; */
+  border: 0;
+  background-color: white;
+  top: 0;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+#canvasdraw {
+  width: 842px;
+  height: 500px;
+  cursor: crosshair;
+  /* background-color: black; */
+}
+#mytextarea {
+  position: relative;
+  width: 842px;
+  min-height: 500px;
+  outline: none;
+  border: none;
+  /* background-color: #39c224; */
+  padding: 35px;
+  font-size: xx-large;
+  font-family: cursive;
+  color: #302e2e;
+}
