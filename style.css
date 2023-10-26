@@ -7,7 +7,6 @@ html {
   scroll-behavior: smooth;
   margin:0;
   padding:0;
-  overflow: hidden;
 }
 @media only screen and (max-width: 680px) {
     body {
@@ -41,12 +40,11 @@ body {
     Oxygen, Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif;
   letter-spacing: 0.5px;
   padding:0;
-  overflow: hidden;
 }
 .home {
   min-width: 100%;
   min-height: 100%;
-  overflow: hidden;
+  overflow-x: hidden;
   /* background-color: black; */
 }
 nav {
@@ -146,7 +144,7 @@ nav img {
 
 #explore {
   position: relative;
-  min-width: 100%;
+  width: 100%;
   margin: 0;
   padding-top: 80px;
   padding-bottom: 100px;
@@ -154,7 +152,7 @@ nav img {
   display: flex;
   flex-direction: column;
   align-items: center;
-  justify-content: center;
+  justify-content: space-evenly;
   min-height: 100px;
   /* background-color: #d5edf9; */
 }
@@ -166,7 +164,7 @@ nav img {
   border: 0;
 }
 .step {
-  width: 360px;
+  width: 318px;
   height: 380px;
   background-image: linear-gradient(200deg, rgba(193, 231, 250, 0.956), #0000),
     linear-gradient(100deg, rgba(246, 246, 250, 0.533), #0000),
@@ -174,7 +172,7 @@ nav img {
   background-attachment: fixed;
   background-repeat: no-repeat;
   top: 0;
-  margin-left: 2rem;
+  margin: 0px 5px 0px 5px;
   padding: 0;
 }
 .step p {
@@ -199,7 +197,7 @@ nav img {
   padding: 5px;
 }
 .step img {
-  width: 360px;
+  width: 350px;
   height: 195px;
   position: relative;
   top: 62px;
@@ -272,9 +270,9 @@ nav img {
 }
 
 #nextbutton{
-  margin-left: 10px;
+  margin: 0;
   height: 60px;
-  font-size: 30px;
+  font-size: 20px;
   font-weight: bolder;
   border-style: solid;
   color: white;
