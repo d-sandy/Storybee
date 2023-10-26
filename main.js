@@ -69,7 +69,7 @@ var quill = new Quill("#mytextarea", {
   modules: {
     toolbar: "#toolbar" //toolbar options
   },
-  placeholder: "    Start your Story here ...",
+  placeholder: "                                             Start your Story here ...",
   theme: "snow"
 });
 
@@ -92,7 +92,7 @@ var canvas = document.getElementById("canvasdraw");
 var ctx = canvas.getContext("2d");
 var currentSize = 5;
 var currentColor = "rgb(200,20,100)";
-var currentBg = "black";
+var currentBg = "#f9f6b8";
 var linesArray = [];
 createCanvas();
 
@@ -135,7 +135,7 @@ canvas.addEventListener("mouseup", mouseup);
 function createCanvas() {
   canvas.width = 842;
   canvas.height = 500;
-  canvas.style.zIndex = 8;
+  // canvas.style.zIndex = 8;
   ctx.fillStyle = currentBg;
   ctx.fillRect(0, 0, canvas.width, canvas.height);
 }
