@@ -7,7 +7,7 @@
   text-decoration: none;
   background: none;
   border: none;
-  font-weight: bold;
+  font-weight: bolder;
 }
 #eraser,
 #cleardraw {
@@ -80,5 +80,6 @@
   padding: 35px;
   font-size: large;
   font-family: cursive;
-  color: #302e2e;
+  color: black;
+  font-weight: bolder;
 }

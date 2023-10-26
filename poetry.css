@@ -21,7 +21,8 @@
   padding: 35px;
   font-size: large;
   font-family: cursive;
-  color: rgb(124, 123, 123);
+  color:black;
+  font-weight: bolder;
 }
 
 #canvasarea {
